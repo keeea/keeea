@@ -1,14 +1,39 @@
-## Hi there, I'm Lan 👋
+# Hi, I'm Lan Xiao
 
-As someone with a comprehensive background in data science, the internet, and real estate, I'm passionate about leveraging open data and customer recordings to develop novel insight into spatial opportunities/risks in demand and supply, operations, and more. I'm also interested in exploring big data and cloud ecosystems through data pipeline, machine learning, and visualization.
+**Data analytics | Applied modeling | AI agent workflows**
 
-### Current Project (WIP)
-[Market arear and visit prediction for Philadelphia Parks & Recreation](https://github.com/keeea/MUSA_801_PPR)
+I explore how people use places, how demand changes over time, and how AI agents can support document-heavy work. My projects connect data preparation and statistical modeling with decision-support reports and practical automation.
 
-### Skills
-**Programming Languages**: Python, R, SQL, NoSQL, JavaScript, HTML
+**Core tools:** Python, R, SQL. **Focus:** geospatial analysis, model evaluation, data visualization, and agent-assisted workflows.
 
-**Tools**: Tableau, Spark, MapReduce, AWS, GCP, Airflow, PyTorch, OpenAI, Pylogit, ArcGIS, GeoDa, AutoCAD, MS Excel
+## Selected projects
 
-**Technical Skills**: Statistics, Machine learning, Hypothesis testing, A/B testing, ETL pipeline, Web scraping, Data visualization
+### [Resume Match Tailor](https://github.com/keeea/resume-match-tailor)
 
+*Personal open-source workflow | Python, GitHub Copilot*
+
+Compares master resumes against a job description before tailoring. Copilot handles selection and writing; Python enforces workflow order and source-evidence checks, then renders DOCX/PDF with automated document QA. Matching is agent judgment, not an ATS score.
+
+[Agent definition](https://github.com/keeea/resume-match-tailor/blob/main/.github/agents/resume-application.agent.md) | [Try the fictional demo](https://github.com/keeea/resume-match-tailor#try-it-without-sharing-your-resume)
+
+### [Parking Demand in San Francisco](https://github.com/keeea/Parking-Demand-in-SF)
+
+*Collaborative modeling prototype | R, tidyverse, sf*
+
+Models hourly parking demand from public meter records and neighborhood features. Compares OLS and Poisson regression using a chronological train/test split and mean absolute error (MAE). The report, maps, and pricing-tool wireframes connect predictions to a proposed parking-pricing decision process.
+
+[Analysis and code](https://github.com/keeea/Parking-Demand-in-SF/blob/main/Final_Report.Rmd) | [Pricing-tool wireframe](https://github.com/keeea/Parking-Demand-in-SF/blob/main/pics/wireframe2.png)
+
+### [Philadelphia Parks: Demand and Resource Allocation](https://github.com/keeea/Huff_Model_for_Parks)
+
+*Team MUSA practicum | R, spatial analysis*
+
+Combines program, permit, and aggregated mobility data to examine park use and recreation demand. The team uses a Huff model to estimate park catchment areas and explore resource-allocation decisions. This repository is a fork of the shared team project, with analysis and model code.
+
+[Analysis report](https://github.com/keeea/Huff_Model_for_Parks/blob/main/PPPR_Final_0426.Rmd) | [Model implementation](https://github.com/keeea/Huff_Model_for_Parks/blob/main/huffModelScripts.R)
+
+## Opportunities
+
+I'm interested in **Data Analyst, Data Scientist, and applied AI agent roles**, especially work that connects analysis with decision-making and automation.
+
+**Find me:** [GitHub @keeea](https://github.com/keeea)
