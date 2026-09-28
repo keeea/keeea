@@ -1,8 +1,16 @@
-# Lan Xiao
+# Lexi (Lan) Xiao
 
 **Data science and analytics for operational decisions**
 
 I work on questions of demand and resource allocation: where people go, how usage changes, and what the data can support. My public projects include spatial modeling in R and, more recently, Python tools for LLM-assisted workflows.
+
+## Current work: AI-assisted workflows
+
+[Resume Match Tailor](https://github.com/keeea/resume-match-tailor) is my personal Python/Copilot project for comparing resume versions against a job description and producing DOCX/PDF output.
+
+The design separates LLM judgment from deterministic controls. Copilot selects and writes; Python checks source references, enforces workflow order, and blocks downstream steps when validated inputs change. Regression tests cover those failure paths separately from the quality of the generated wording, which still needs review.
+
+[Workflow implementation](https://github.com/keeea/resume-match-tailor/blob/main/resume-workflow/scripts/resume_workflow/workflow.py) | [Failure-path tests](https://github.com/keeea/resume-match-tailor/blob/main/resume-workflow/tests/test_public_gates.py) | [Demo](https://github.com/keeea/resume-match-tailor#try-it-without-sharing-your-resume)
 
 ## Selected analytical work
 
@@ -26,10 +34,3 @@ We also normalized errors by meter count to compare locations with different par
 
 [Analysis and code](https://github.com/keeea/Parking-Demand-in-SF/blob/main/Final_Report.Rmd) | [Interface concept](https://github.com/keeea/Parking-Demand-in-SF/blob/main/pics/wireframe2.png)
 
-## Current work: AI-assisted workflows
-
-[Resume Match Tailor](https://github.com/keeea/resume-match-tailor) is my personal Python/Copilot project for comparing resume versions against a job description and producing DOCX/PDF output.
-
-The design separates LLM judgment from deterministic controls. Copilot selects and writes; Python checks source references, enforces workflow order, and blocks downstream steps when validated inputs change. Regression tests cover those failure paths separately from the quality of the generated wording, which still needs review.
-
-[Workflow implementation](https://github.com/keeea/resume-match-tailor/blob/main/resume-workflow/scripts/resume_workflow/workflow.py) | [Failure-path tests](https://github.com/keeea/resume-match-tailor/blob/main/resume-workflow/tests/test_public_gates.py) | [Demo](https://github.com/keeea/resume-match-tailor#try-it-without-sharing-your-resume)
